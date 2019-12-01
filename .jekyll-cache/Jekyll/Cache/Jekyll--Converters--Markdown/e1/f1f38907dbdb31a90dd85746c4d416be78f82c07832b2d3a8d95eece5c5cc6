@@ -1,0 +1,52 @@
+I"�<hr />
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Availability</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+    <td>1. des - 22. des</td>
+    <td>12:00 - 22:00
+    </td>
+  </tr>
+  <tr>
+    <td>Þorláksmessa</td>
+    <td>12:00 - 23:00</td>
+  </tr>
+  <tr>
+    <td>Aðfangadagur</td>
+    <td>Lokað</td>
+  </tr>
+  <tr>
+    <td>Jóladagur</td>
+    <td><a href="https://www.amazon.co.uk/adidas-Mens-Superstar-Gymnastics-Shoes/dp/B07K2MF1FD?SubscriptionId=AKIAING73PPL74JOUHRA&amp;tag=runrepcom-product-21&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B07RH9KG4Y&amp;psc=1">Amazon</a></td>
+    <td>£46.82</td>
+  </tr>
+  </tbody>   
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td></td>
+      <td>£661.37</td>
+    </tr>
+  </tfoot>
+</table>
+<ol>
+  <li>des - 22. des
+12:00 - 22:00
+Þorláksmessa
+12:00 - 23:00
+Aðfangadagur
+Lokað
+Jóladagur
+Lokað
+Annar í jólum
+12:00 - 16:00</li>
+  <li>des - 30. des
+12:00 - 22:00</li>
+</ol>
+:ET

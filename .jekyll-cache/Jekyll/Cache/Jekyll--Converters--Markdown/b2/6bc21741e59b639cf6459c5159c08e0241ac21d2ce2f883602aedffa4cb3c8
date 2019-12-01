@@ -1,0 +1,59 @@
+I"p<hr />
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Availability</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+    <td>1. des - 22. des</td>
+    <td>12:00 - 22:00
+    </td>
+  </tr>
+  <tr>
+    <td>Þorláksmessa</td>
+    <td>12:00 - 23:00</td>
+  </tr>
+  <tr>
+    <td>Aðfangadagur</td>
+    <td>Lokað</td>
+  </tr>
+  <tr>
+    <td>Jóladagur</td>
+    <td>Lokað</td>
+  </tr>
+   <tr>
+    <td>Annar í jólum</td>
+    <td>12:00 - 16:00</td>
+  </tr>
+   <tr>
+    <td>26. des - 30. des</td>
+    <td>12:00 - 22:00</td>
+  </tr>
+  </tbody>   
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td></td>
+      <td>£661.37</td>
+    </tr>
+  </tfoot>
+</table>
+<ol>
+  <li>des - 22. des
+12:00 - 22:00
+Þorláksmessa
+12:00 - 23:00
+Aðfangadagur
+Lokað
+Jóladagur
+Lokað
+Annar í jólum
+12:00 - 16:00</li>
+  <li>des - 30. des
+12:00 - 22:00</li>
+</ol>
+:ET

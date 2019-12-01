@@ -6,18 +6,23 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
-    <link rel="icon" type="image/png" href="/assets/fonts/running-256.ico">
+    <link rel="icon" type="image/png" href="/assets/fonts/iceskates.svg">
   </head>
   <body>
-    <nav>
+    <nav class="val">
+      <div class="textival">
     {% include navigation.html %}
-    {% include socialmedia.html %}
+    <!--{% include socialmedia.html %}-->
+      </div>
     </nav>
+   
     <header><h1>{{ page.title }}</h1></header>
-  
+    <video id="skautavid" poster="poster.jpg" autoplay muted loop>
+      <source src="../pictures/skautavid.mp4" type="video/mp4">
+    </video>
     <main>
        
-      <article>
+      <article class="texti">
         {{ content }}
       </article>
       <aside>

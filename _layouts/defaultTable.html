@@ -1,0 +1,44 @@
+<!DOCTYPE <!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="icon" type="image/png" href="/assets/fonts/running-256.ico">
+  </head>
+  <body>
+    <nav class="val">
+      <div class="textival">
+    {% include navigation.html %}
+    <!--{% include socialmedia.html %}-->
+      </div>
+    </nav>
+   
+    <header><h1>{{ page.title }}</h1></header>
+    <video id="skautavid" poster="poster.jpg" autoplay muted loop>
+      <source src="../pictures/skautavid.mp4" type="video/mp4">
+    </video>
+    <main>
+       
+      <article>
+        {{ content }}
+      </article>
+      <aside>
+      
+      </aside>
+      <div class="fadeIn kassi" >
+          <img src="../pictures/skorAug.jpg" width="150" height="150">
+          <div class="kassi textiAug">
+              <h5>Do you need Shoe Restoration? We Do Deep Clean & Conditioning!</h5>
+              <a href="https://www.proofculture.com/sneaker-restoration/" class="clickTexti">Click Here!</a>
+          </div>
+        </div>
+    </main>
+  </body>
+  <footer>
+    <hr> {% include footer.html %} 
+  </footer>
+</html>
+

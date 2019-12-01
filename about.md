@@ -1,9 +1,45 @@
 ---
-layout: default
-title: About
+layout: defaultTable
+title: Opnar 1. Desember
 ---
-## About Us
 
- We are a team of individuals with passion for the newest onset trends of sneakers.
-
- Checkout our blog for info on all the latest and greatest shoes!
+<table class="table">
+  <thead>
+    <tr class='thead2'>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <thead>
+    <tr>
+      <th scope="col">Dagsetning</th>
+      <th scope="col">Klukkan</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+    <td>1. des - 22. des</td>
+    <td>12:00 - 22:00
+    </td>
+  </tr>
+  <tr>
+    <td>Þorláksmessa</td>
+    <td>12:00 - 23:00</td>
+  </tr>
+  <tr>
+    <td>Aðfangadagur</td>
+    <td>Lokað</td>
+  </tr>
+  <tr>
+    <td>Jóladagur</td>
+    <td>Lokað</td>
+  </tr>
+   <tr>
+    <td>Annar í jólum</td>
+    <td>12:00 - 16:00</td>
+  </tr>
+   <tr>
+    <td>26. des - 30. des</td>
+    <td>12:00 - 22:00</td>
+  </tr>
+  

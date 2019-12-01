@@ -1,21 +1,25 @@
 table {
     border-collapse: separate;
     border-spacing: 0;
-    color: #4a4a4d;
+    width: 500px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: rgba(#f0f0f2, 0.9);
+    background-color: rgba(white, 1);
     border-radius: .4em;
   }
+ 
   th,
   td {
     padding: 10px 15px;
     vertical-align: middle;
   }
-  thead {
-    background: linear-gradient(rgb(202, 66, 66), brown);
-    color: #fff;
-    font-size: 11px;
-    text-transform: uppercase;
+  .thead2 {
+    $candy-color: #D33144, #FFFFEE;
+    background: nth($candy-color, 1);
+    background: repeating-linear-gradient(45deg, 
+              nth($candy-color, 2), 
+              nth($candy-color, 2) 15px, 
+              nth($candy-color, 1) 15px,
+              nth($candy-color, 1) 30px);
   }
   th:first-child {
     border-top-left-radius: 5px;
