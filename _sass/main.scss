@@ -1,0 +1,377 @@
+.current {
+    color: brown;
+}
+nav a{
+    grid-area: nav;
+    color: whitesmoke;
+    font-size: 5em;
+    padding: .2em;
+}
+a:hover{
+    color:brown;
+}
+h1{
+    color:whitesmoke;
+    text-shadow: black 0px 0px 10px;
+}
+p{
+    font-size: 24px;
+    line-height: 1.5em;
+    color: whitesmoke;
+    text-shadow: black 0px 0px 10px;
+}
+h2{
+    color: whitesmoke;
+    text-shadow: black 0px 0px 10px;
+}
+a{
+    color: brown;
+}
+li{
+    color: whitesmoke;
+}
+.a{
+    color: whitesmoke;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.myndAuglysingar{
+    position: fixed;
+    margin-right: 20em;
+}
+
+.texti{
+    background-color: rgba(0,0,0, 0.5)
+}
+.svgFooter{
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+    color: white;
+    text-shadow: black 0px 0px 10px;
+}
+.mini{
+    width: 100;
+    height: 100;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+article {
+    grid-area: article;
+}
+aside {
+    grid-area: aside;
+}
+.vinstri{
+    grid-area: vinstri;
+}
+.haegri {
+    grid-area: haegri;
+}
+.midja {
+    grid-area: midja;
+}
+
+body{
+    background-image: url("/pictures/back.jpg");
+    height: 50%;
+    background-position: center;
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas: 
+        "nav"
+        "header"
+        "main"
+        "footer";
+    max-width: 80em;
+    margin: 0 auto;
+    padding-left:2em;
+}
+main{
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas: "article aside";
+    grid-template-columns: 1fr 1fr;
+}
+article{
+    padding: .5em .2em;
+}
+aside {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "midja midja" 
+    "haegri vinstri";
+    align-self: start;
+}
+.boxid{
+    position: relative;
+}
+.topright {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 18px;
+}
+.MidjuLitur{
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 6px 1px black;
+    }
+.kassi{
+    width: 8em;
+    border-radius: .4em;
+    background-color: #ffffff;
+    text-align: center;
+}
+.textiAug{
+    border: 1px solid black;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: .3em;
+    margin-bottom: 1em;
+}
+.clickTexti{
+    font-weight: bold;
+    color: #000000;
+}
+.fadeIn{
+    position: relative;
+    animation: ease-in fadeInVinstri 2s;
+    animation-direction: normal;
+}
+@keyframes fadeInVinstri{
+    0%{
+        left: -25em;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes fadeInHaegri{
+    0%{
+        right: -25em;
+    }
+    100%{
+        right: 0;
+    }
+}
+@media only screen and (min-width: 300px){
+    .kassi{
+        height: 8em;
+    }
+} 
+@media only screen and (max-width: 600px)
+ {
+    nav {
+        display: flex;
+        flex-flow: column;
+        
+    }
+    main{
+        display: grid;
+        grid-gap: 0;
+        grid-template-areas: "article" "aside";
+        grid-template-columns: 1fr 1fr; 
+    }
+    .storSkjar{
+        display: none;
+    }
+    nav{
+        width: 100%;
+        height: 70px;
+        padding-bottom: 24px;
+        padding-left: 0;
+    }
+    nav ul {
+        float: left;
+    }
+    nav ul li{
+        float: left;
+        list-style: none;
+        position: relative;  
+    }
+    
+    nav ul li a{
+     display: block;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     font-size: 34px;
+     padding: 22px 14px;
+     text-decoration: none;
+     background-color: #ffffff;
+     opacity: 0.8;
+     border-radius: 24px;
+     
+    }
+    nav ul li ul{
+     display: none;
+     position: absolute;
+     background-color:#ffffff;
+     padding: 10px;
+     
+     border-radius: 4px 4px 4px 4px;
+    }
+    nav ul li:hover ul {
+     display: block;
+    }
+    nav ul li ul li {
+     width: 100%;
+     border-radius: 4px;
+     padding: 2px;
+     }
+    nav ul li ul li a{
+    padding: 8px 14px;
+    }
+    nav ul li ul li a:hover{
+     background-color: #979797;
+     }
+     .mobileSocial{
+        display: none;
+    }
+    .fadeIn{
+        position: relative;
+        animation: ease-in fadeInHaegri 2s;
+        animation-direction: normal;
+    }
+    .kassi{
+        width: 8em;
+        border-radius: .4em;
+        background-color: #ffffff;
+        text-align: center;
+    }
+ }
+@media only screen and (min-width: 600px){
+   nav{
+       width: 100%;
+       height: 100px;
+       padding-bottom: 24px;
+       padding-left: 0;
+   }
+   nav ul {
+       float: left;
+   }
+   nav ul li{
+       float: left;
+       list-style: none;
+       position: relative;  
+   }
+   .menuMerki{
+    font-size: 50px;
+    color: brown;
+   }
+
+   nav ul li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 0.8;
+    border-radius: 34px;
+    
+   }
+   nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color:#ffffff;
+    padding: 10px;
+    
+    border-radius: 4px 4px 4px 4px;
+   }
+   nav ul li:hover ul {
+    display: block;
+   }
+   nav ul li ul li {
+    width: 100%;
+    border-radius: 4px;
+    padding: 2px;
+    }
+   nav ul li ul li a{
+   padding: 8px 14px;
+   }
+   nav ul li ul li a:hover{
+    background-color: #979797;
+    }
+
+    main{
+        display: grid;
+        grid-gap: 0;
+        grid-template-areas: "article" "aside";
+        grid-template-columns: 1fr 1fr;
+    } 
+    .storSkjar{
+        display: none;
+    }
+    .mobileSocial{
+        display: none;
+    }
+    .fadeIn{
+        position: relative;
+        animation: ease-in fadeInHaegri 2s;
+        animation-direction: normal;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+    }  
+    main{
+        display: grid;
+        grid-gap: 0;
+        grid-template-areas: "article aside";
+        grid-template-columns: 1fr 1fr;
+    } 
+    .storSkjar{
+        display: inline;
+    }
+    .mobile{
+        display: none;
+    }
+    .mobileSocial{
+        display: none;
+    }
+    .kassi{
+        height: 75%;
+    }
+    
+    .fadeIn{
+    position: relative;
+    animation: ease-in fadeInVinstri 2s;
+    animation-direction: normal;
+    }
+}
+@media only screen and (min-width: 860px) {
+    .mobileSocial{
+        display: inline;
+    }
+}
+@media only screen and (min-width: 992px) {
+    nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+    }
+   
+    
+}
+@media only screen and (min-width: 1200px) {
+    nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+    }
+}

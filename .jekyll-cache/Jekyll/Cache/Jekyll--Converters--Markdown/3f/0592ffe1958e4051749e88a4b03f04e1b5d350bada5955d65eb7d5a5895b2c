@@ -1,0 +1,50 @@
+I"i<p>The newest shoes are in!
+Checkout the blog for more on them.</p>
+
+<p>Got news or early availability on fresh drops?</p>
+
+<p>fill out this <a href="/form.html" class="a">Application</a> and we’ll contact you as soon as possible!</p>
+
+<hr />
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Availability</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+    <td>Nike Air Max 270</td>
+    <td><a href="https://www.amazon.co.uk/Nike-Mens-Air-Gymnastics-Shoes/dp/B077S3F5YX?SubscriptionId=AKIAING73PPL74JOUHRA&amp;tag=runrepcom-product-21&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B078X1W7KK&amp;psc=1">Amazon</a>
+    </td>
+    <td>£80.49</td>
+  </tr>
+  <tr>
+    <td>Nike Air Force 1 Low</td>
+    <td><a href="https://www.lifestylesports.com/gb/mens-air-force-1-11858613.html?cgid=mens-trainers-black-trainers&amp;wgu=10245_186217_15740941573107_d7c7c30cdb&amp;wgexpiry=1581870157&amp;source=webgains&amp;siteid=186217">Lifestylesports</a></td>
+    <td>£75.00</td>
+  </tr>
+  <tr>
+    <td>Balenciaga Speed Trainer</td>
+    <td>Not Available</td>
+    <td>£459.06+</td>
+  </tr>
+  <tr>
+    <td>Adidas Superstar
+    </td>
+    <td><a href="https://www.amazon.co.uk/adidas-Mens-Superstar-Gymnastics-Shoes/dp/B07K2MF1FD?SubscriptionId=AKIAING73PPL74JOUHRA&amp;tag=runrepcom-product-21&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B07RH9KG4Y&amp;psc=1">Amazon</a></td>
+    <td>£46.82</td>
+  </tr>
+  </tbody>   
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td></td>
+      <td>£661.37</td>
+    </tr>
+  </tfoot>
+</table>
+:ET

@@ -1,0 +1,8 @@
+- name: <span class="icon-home3"> </span>
+  link: /
+  
+- name: About
+  link: /about.html
+
+- name: Blog
+  link: /blog.html

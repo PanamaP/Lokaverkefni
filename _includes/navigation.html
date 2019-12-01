@@ -1,0 +1,24 @@
+
+<nav class="mobile">
+
+<ul>
+    <li ><a href="#" class="menuMerki">&#9776;</a>
+      <ul>
+          {% for item in site.data.navigation %}
+          <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: brown;"{% endif %}>
+              {{ item.name }}
+          </a></li>
+            {% endfor %}
+      </ul>
+    </li>
+      
+</ul>
+</nav>
+
+<nav class="storSkjar">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: brown;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
