@@ -8,11 +8,18 @@ Novasvellið er opið! Orka náttúrunnar lýsir upp Novasvellið allan desember
 
 Verðskrá Novasvellsins:
 
-1.190 kr./klst. - Skautar, hjálmur og ómetanleg skemmtun 1.190 kr./klst. - Skautagrind
+1.190 kr./klst. - Skautar, hjálmur og ómetanleg skemmtun
+
+1.190 kr./klst. - Skautagrind
 
 Greiddu með AUR appinu og fáðu skautamiðann á 990 kr./klst.
 
-<A href='/about.html'> Opnunartímar á Novasvellinu</a>
+Ef þú pantar á netinu færðu skautamiðanna á 890 kr./klst.
+
+<A href='/about.html'> Opnunartímar á Novasvellinu</a> 
+
+<a href='/form.html'> Panta á netinu</a> 
+<h3>(Nettilboð Gildir bara fyrir fyrsta klukkutíma.)</h3>
 
 Sjáumst á Novasvellinu í desember!
 

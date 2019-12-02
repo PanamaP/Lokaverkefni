@@ -1,5 +1,5 @@
 .current {
-    color: brown;
+    color: red;
 }
 nav a{
     grid-area: nav;
@@ -9,11 +9,14 @@ nav a{
     text-decoration: none;
 }
 a:hover{
-    color:brown;
+    color:red;
 }
 h1{
     color:white;
     text-shadow: black 0px 0px 10px;
+}
+h3{
+    color: grey;
 }
 p{
     font-size: 24px;
@@ -26,7 +29,7 @@ h2{
     text-shadow: black 0px 0px 10px;
 }
 a{
-    color: brown;
+    color: red;
 }
 li{
     color: white;
@@ -49,11 +52,16 @@ img {
 .svgFooter{
     font-size: 40px;
     width: 50px;
-    text-align: center;
     text-decoration: none;
     opacity: 0.8;
     color: white;
     text-shadow: black 0px 0px 10px;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
 }
 .mini{
     width: 100;
@@ -274,7 +282,7 @@ aside {
    }
    .menuMerki{
     font-size: 50px;
-    color: brown;
+    color: red;
    }
 
    nav ul li a{

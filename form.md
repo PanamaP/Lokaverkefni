@@ -5,38 +5,56 @@ title: Fresh Drop Info
 <form>
   <fieldset class="account-info">
     <label>
-        Name<input type="text" name="name" placeholder="Full name" required autofocus>
+         Nafn
+        <Br>
+      <input type="text" name="name" placeholder="Fullt Nafn" required autofocus>
     </label>
     <label>
-        Email<input type="email" name="email" placeholder="domain@address.com" required>
+        Tölvupóstur
+        <Br>
+        <input type="email" name="email" placeholder="domain@address.com" required>
     </label>
     <label>
-        Can we use your name in the article?<input type="radio" name="choice" value="Yes" checked> Yes
-        <input type="radio" name="choice" value="No"> No. 
-    </label>
-    <label>
-        Write Your info here
-        <br>
-        <textarea rows="4" name="comment" required></textarea>
-    </label>
-    <label>
-    What would you like in return?
+    Hversu marga miða?
     <br>
-    <select name="award">
-    <option value="newShoe" selected>New Shoe</option>
-    <option value="freeCleaning">Free Cleaning</option>
-    <option value="shoutout">A shoutout</option>
-    <option value="nothing">Nothing</option>
+    <select name="midar">
+    <option value="1" selected>1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
   </select>
     </label>
     <label>
-    Subscribe To Our Email List
-    Find Out When Your News Hit Our Blog!
+        Börn?
+        <input type="radio" name="born" value="Yes">Já
+        <input type="radio" name="born" value="No" checked>Nei 
+        <Br>
+        hversu mörg? <select name="bornfjoldi">
+        <option value="0" selected>0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    </label>
+    <label>
     <Br>
-    <input type="checkbox" name="list"           value="emailList" checked> Subscribe To All
-    <input type="checkbox" name="list" value="newdropEmailList"> New Drop News
-    <input type="checkbox" name="list" value="pricedropList"> Price Drop Exclusive List
+    Ég vil leiga -
+    <br>
+    <input type="checkbox" name="SogH" value="newdropEmailList" checked> Skauta og Hjálm
+    <Br>
+    <input type="checkbox" name="grind" value="pricedropList"> Skautagrind
+    <br>
+    <input type="checkbox" name="eignSogH"           value="emailList" > Er með eigin skauta og Hjálm
  </label>
+ <label>
+        Sérstakarspurningar?<br>
+        <textarea rows="4" name="comment" required></textarea>
+        <br>
+        Við reynum að svara innan 24klst. 
+    </label>
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">

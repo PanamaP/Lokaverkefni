@@ -5,7 +5,7 @@
     <li ><a href="#" class="menuMerki">&#9776;</a>
       <ul>
           {% for item in site.data.navigation %}
-          <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: brown;"{% endif %}>
+          <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
               {{ item.name }}
           </a></li>
             {% endfor %}
@@ -17,7 +17,7 @@
 
 <nav class="storSkjar">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: brown;"{% endif %}>
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}

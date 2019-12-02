@@ -9,42 +9,101 @@
         <link rel="stylesheet" href="">
         <link rel="icon" type="image/png" href="/assets/fonts/running-256.ico">
 </head>
-<body>
+<body class="texti">
+        
+<nav class="mobile">
+
+<ul>
+    <li ><a href="#" class="menuMerki">&#9776;</a>
+      <ul>
+          
+          <li><a href="/" >
+              <span class="icon-home3"> </span>
+          </a></li>
+            
+          <li><a href="/about.html" >
+              Opnunartími
+          </a></li>
+            
+          <li><a href="/form.html" style="color: red;">
+              Nettilboð
+          </a></li>
+            
+      </ul>
+    </li>
+      
+</ul>
+</nav>
+
+<nav class="storSkjar">
+  
+    <a href="/" >
+      <span class="icon-home3"> </span>
+    </a>
+  
+    <a href="/about.html" >
+      Opnunartími
+    </a>
+  
+    <a href="/form.html" style="color: red;">
+      Nettilboð
+    </a>
+  
+</nav>
+        <div class="content">
         <form>
   <fieldset class="account-info">
     <label>
-        Name<input type="text" name="name" placeholder="Full name" required="" autofocus="" />
-    </label>
-    <label>
-        Email<input type="email" name="email" placeholder="domain@address.com" required="" />
-    </label>
-    <label>
-        Can we use your name in the article?<input type="radio" name="choice" value="Yes" checked="" /> Yes
-        <input type="radio" name="choice" value="No" /> No. 
-    </label>
-    <label>
-        Write Your info here
+         Nafn
         <br />
-        <textarea rows="4" name="comment" required=""></textarea>
+      <input type="text" name="name" placeholder="Fullt Nafn" required="" autofocus="" />
     </label>
     <label>
-    What would you like in return?
+        Tölvupóstur
+        <br />
+        <input type="email" name="email" placeholder="domain@address.com" required="" />
+    </label>
+    <label>
+    Hversu marga miða?
     <br />
-    <select name="award">
-    <option value="newShoe" selected="">New Shoe</option>
-    <option value="freeCleaning">Free Cleaning</option>
-    <option value="shoutout">A shoutout</option>
-    <option value="nothing">Nothing</option>
+    <select name="midar">
+    <option value="1" selected="">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
   </select>
     </label>
     <label>
-    Subscribe To Our Email List
-    Find Out When Your News Hit Our Blog!
+        Börn?
+        <input type="radio" name="born" value="Yes" />Já
+        <input type="radio" name="born" value="No" checked="" />Nei 
+        <br />
+        hversu mörg? <select name="bornfjoldi">
+        <option value="0" selected="">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    </label>
+    <label>
     <br />
-    <input type="checkbox" name="list" value="emailList" checked="" /> Subscribe To All
-    <input type="checkbox" name="list" value="newdropEmailList" /> New Drop News
-    <input type="checkbox" name="list" value="pricedropList" /> Price Drop Exclusive List
+    Ég vil leiga -
+    <br />
+    <input type="checkbox" name="SogH" value="newdropEmailList" checked="" /> Skauta og Hjálm
+    <br />
+    <input type="checkbox" name="grind" value="pricedropList" /> Skautagrind
+    <br />
+    <input type="checkbox" name="eignSogH" value="emailList" /> Er með eigin skauta og Hjálm
  </label>
+ <label>
+        Sérstakarspurningar?<br />
+        <textarea rows="4" name="comment" required=""></textarea>
+        <br />
+        Við reynum að svara innan 24klst. 
+    </label>
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">
@@ -54,6 +113,6 @@
 </form>
 
 
-    
+        </div>
 </body>
 </html>

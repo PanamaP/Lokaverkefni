@@ -25,21 +25,34 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-shoe:before {
+  .icon-snowflake-o:before {
+    content: "\e903";
+  }
+  .icon-ice-skate:before {
     content: "\e900";
+  }
+  .icon-ice-skate1:before {
+    content: "\e901";
   }
   .icon-home3:before {
     content: "\e902";
   }
-  .icon-compass2:before {
-    content: "\e94a";
-    color: black;
-  }
   .icon-facebook:before {
     content: "\ea90";
-    color: black;
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-telegram:before {
+    content: "\ea95";
   }
   .icon-github:before {
     content: "\eab0";
-    color: black;
   }
+  .icon-bubble:before {
+    content: "\e96b";
+  }
+  .icon-info:before {
+    content: "\ea0c";
+  }
+  
