@@ -43,7 +43,7 @@ title: Nettilboð
       <br>
       <input id='leiga' type="checkbox" name="grind" value="skautagrind">Skautagrind
       <br>
-      <input id='leiga'type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
+      <input id='leiga' type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
     <br>
     <br>
     <label for='name'> Sérstakar spurningar? </label> 
