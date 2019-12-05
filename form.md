@@ -40,16 +40,16 @@ title: Nettilboð
     <br>
     <label for='name'> Ég vil leiga - </label> 
       <input type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
+      <br>
       <input type="checkbox" name="grind" value="skautagrind">Skautagrind
+      <br>
       <input type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
-    </label>
-    <label>
-        Sérstakar spurningar?
-        <br>
+    <br>
+    <br>
+    <label for='name'> Sérstakar spurningar? </label> 
         <textarea rows="4" name="comment" required></textarea>
-        <br>
-        Við reynum að svara innan 24klst. 
-    </label>
+    <br>
+    Við reynum að svara innan 24klst. 
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">
