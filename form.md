@@ -27,9 +27,10 @@ title: Nettilboð
     </label>
     <label>
         Börn?
-        <input type="radio" name="born" value="Yes">Já
-        <input type="radio" name="born" value="No" checked>Nei 
-        <Br>
+        <input type="radio" name="born" value="Yes"> Já
+        <input type="radio" name="born" value="No" checked> Nei
+    </label>
+    <label>
         hversu mörg? <select name="bornfjoldi">
         <option value="0" selected>0</option>
         <option value="1">1</option>
@@ -43,18 +44,18 @@ title: Nettilboð
     <Br>
     Ég vil leiga -
     <br>
-    <input type="checkbox" name="SogH" value="newdropEmailList" checked> Skauta og Hjálm
+    <input type="checkbox" name="SogH" value="skautaoghjalm" checked> Skauta og Hjálm
     <Br>
-    <input type="checkbox" name="grind" value="pricedropList"> Skautagrind
+    <input type="checkbox" name="grind" value="skautagrind"> Skautagrind
     <br>
-    <input type="checkbox" name="eignSogH"           value="emailList" > Er með eigin skauta og Hjálm
+    <input type="checkbox" name="eignSogH"           value="eigin"> Er með eigin skauta og Hjálm
  </label>
  <label>
         Sérstakar spurningar?<br>
         <textarea rows="4" name="comment" required></textarea>
         <br>
         Við reynum að svara innan 24klst. 
-    </label>
+  </label>
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">
