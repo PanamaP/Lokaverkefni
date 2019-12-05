@@ -17,45 +17,46 @@ title: Nettilboð
     <label>
     Hversu marga miða?
     <br>
-    <select name="midar">
+      <select name="midar">
     <option value="1" selected>1</option>
     <option value="2">2</option>
     <option value="3">3</option>
     <option value="4">4</option>
     <option value="5">5</option>
-  </select>
+      </select>
     </label>
     <label>
         Börn?
-        <input type="radio" name="born" value="Yes"> Já
-        <input type="radio" name="born" value="No" checked> Nei
+        <input type="radio" name="born" value="Yes">Já
+        <input type="radio" name="born" value="No" checked>Nei
     </label>
     <label>
-        hversu mörg? <select name="bornfjoldi">
+        hversu mörg? 
+        <select name="bornfjoldi">
         <option value="0" selected>0</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
-    </select>
+        </select>
     </label>
     <label>
-    <Br>
-    Ég vil leiga -
-    <br>
-    <input type="checkbox" name="SogH" value="skautaoghjalm" checked> Skauta og Hjálm
-    <Br>
-    <input type="checkbox" name="grind" value="skautagrind"> Skautagrind
-    <br>
-    <input type="checkbox" name="eignSogH"           value="eigin"> Er með eigin skauta og Hjálm
- </label>
- <label>
+      <Br>
+      Ég vil leiga -
+      <br>
+      <input type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
+      <Br>
+      <input type="checkbox" name="grind" value="skautagrind">Skautagrind
+      <br>
+      <input type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
+    </label>
+    <label>
         Sérstakar spurningar?<br>
         <textarea rows="4" name="comment" required></textarea>
         <br>
         Við reynum að svara innan 24klst. 
-  </label>
+    </label>
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">
