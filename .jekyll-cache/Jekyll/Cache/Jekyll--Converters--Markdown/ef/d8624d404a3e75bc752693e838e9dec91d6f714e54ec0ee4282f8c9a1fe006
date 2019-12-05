@@ -1,4 +1,4 @@
-I"�<form>
+I"�<form>
   <fieldset class="account-info">
     <label for="nafn"> Nafn </label>
     <input id="nafn" type="text" name="name" placeholder="Fullt Nafn" required="" autofocus="" />
@@ -20,7 +20,7 @@
     <br />
     <label for="born"> Börn? </label>
     <input id="born" type="radio" name="born" value="Yes" /> Já
-    <input id="born" type="radio" name="born" value="No" checked="" /> Nei
+    <input type="radio" name="born" value="No" checked="" /> Nei
     <br />
     <br />
     <label for="fjoldi"> hversu mörg? </label> 
@@ -37,9 +37,9 @@
     <label for="leiga"> Ég vil leiga - </label> 
       <input id="leiga" type="checkbox" name="SogH" value="skautaoghjalm" checked="" />Skauta og Hjálm
       <br />
-      <input id="leiga" type="checkbox" name="grind" value="skautagrind" />Skautagrind
+      <input type="checkbox" name="grind" value="skautagrind" />Skautagrind
       <br />
-      <input id="leiga" type="checkbox" name="eignSogH" value="eigin" />Er með eigin skauta og Hjálm
+      <input type="checkbox" name="eignSogH" value="eigin" />Er með eigin skauta og Hjálm
     <br />
     <br />
     <label for="spurning"> Sérstakar spurningar? </label> 
