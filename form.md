@@ -18,15 +18,16 @@ title: Nettilboð
     Hversu marga miða?
     <br>
       <select name="midar">
-    <option value="1" selected>1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
+      <option value="1" selected>1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
       </select>
     </label>
     <label>
         Börn?
+        <br>
         <input type="radio" name="born" value="Yes">Já
         <input type="radio" name="born" value="No" checked>Nei
     </label>
@@ -41,10 +42,8 @@ title: Nettilboð
         <option value="5">5</option>
         </select>
     </label>
+    Ég vil leiga -
     <label>
-      <Br>
-      Ég vil leiga -
-      <br>
       <input type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
       <Br>
       <input type="checkbox" name="grind" value="skautagrind">Skautagrind

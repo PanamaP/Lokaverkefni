@@ -1,4 +1,4 @@
-I"4<form>
+I"<form>
   <fieldset class="account-info">
     <label>
          Nafn
@@ -38,9 +38,7 @@
         </select>
     </label>
     <label>
-      <br />
       Ég vil leiga -
-      <br />
       <input type="checkbox" name="SogH" value="skautaoghjalm" checked="" />Skauta og Hjálm
       <br />
       <input type="checkbox" name="grind" value="skautagrind" />Skautagrind
