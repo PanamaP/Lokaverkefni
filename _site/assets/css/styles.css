@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Cookie");
 .current { color: red; }
+
+.santa { padding-left: 130px; font-size: 18px; padding-right: 10px; padding-top: 65px; text-align: center; }
+
+.santaBil { margin: 22px; }
 
 nav a { grid-area: nav; color: white; font-size: 5em; padding: .1em; text-decoration: none; }
 
@@ -25,6 +30,8 @@ img { max-width: 100%; height: auto; }
 .texti { background-color: rgba(0, 0, 0, 0.7); width: 100%; }
 
 .svgFooter { font-size: 40px; width: 50px; text-decoration: none; opacity: 0.8; color: white; text-shadow: black 0px 0px 10px; }
+
+body { font-family: 'Cookie', cursive; }
 
 footer { text-align: center; font-size: 25px; color: white; }
 
@@ -70,28 +77,25 @@ aside { grid-template-columns: 1fr 1fr; grid-template-areas: "midja midja"  "hae
 
 .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; }
 
-@keyframes fadeInVinstri { 0% { left: -25em; }
+@keyframes fadeInVinstri { 0% { left: -45em; }
   100% { left: 0; } }
-
-@keyframes fadeInHaegri { 0% { right: -25em; }
-  100% { right: 0; } }
 
 @media only screen and (min-width: 300px) { .kassi { height: 8em; } }
 
-@media only screen and (max-width: 600px) { nav { display: flex; flex-flow: column; }
-  main { display: grid; grid-gap: 0; grid-template-areas: "article" "aside"; grid-template-columns: 1fr 1fr; }
+@media only screen and (max-width: 600px) { main { display: grid; grid-gap: 0; grid-template-areas: "article" "aside"; grid-template-columns: 1fr 1fr; }
   .storSkjar { display: none; }
-  nav { width: 100%; height: 70px; padding-bottom: 24px; padding-left: 0; }
+  nav { width: 100%; height: 100px; padding-bottom: 24px; padding-left: 0; }
   nav ul { float: left; }
   nav ul li { float: left; list-style: none; position: relative; }
-  nav ul li a { display: block; font-family: Arial, Helvetica, sans-serif; color: black; font-size: 34px; padding: 22px 14px; text-decoration: none; background-color: #ffffff; opacity: 0.8; border-radius: 24px; }
+  .menuMerki { font-size: 50px; color: red; }
+  nav ul li a { display: block; font-family: Arial, Helvetica, sans-serif; color: black; font-size: 14px; text-decoration: none; opacity: 0.8; border-radius: 34px; }
   nav ul li ul { display: none; position: absolute; background-color: #ffffff; padding: 10px; border-radius: 4px 4px 4px 4px; }
   nav ul li:hover ul { display: block; }
   nav ul li ul li { width: 100%; border-radius: 4px; padding: 2px; }
   nav ul li ul li a { padding: 8px 14px; }
   nav ul li ul li a:hover { background-color: #979797; }
   .mobileSocial { display: none; }
-  .fadeIn { position: relative; animation: ease-in fadeInHaegri 2s; animation-direction: normal; }
+  .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; }
   .kassi { width: 8em; border-radius: .4em; background-color: #ffffff; text-align: center; } }
 
 @media only screen and (min-width: 600px) { nav { width: 100%; height: 100px; padding-bottom: 24px; padding-left: 0; }
@@ -107,28 +111,28 @@ aside { grid-template-columns: 1fr 1fr; grid-template-areas: "midja midja"  "hae
   main { display: grid; grid-gap: 0; grid-template-areas: "article" "aside"; grid-template-columns: 1fr 1fr; }
   .storSkjar { display: none; }
   .mobileSocial { display: none; }
-  .fadeIn { position: relative; animation: ease-in fadeInHaegri 2s; animation-direction: normal; } }
+  .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; } }
 
 @media (max-width: 767px) { #skautavid { display: none; }
   body { background: url("/pictures/poster3.jpg"); background-size: cover; } }
 
 @media only screen and (min-width: 768px) { nav { display: flex; flex-flow: row; justify-content: left; }
   main { display: grid; grid-gap: 0; grid-template-areas: "article aside"; grid-template-columns: 1fr 1fr; }
-  .storSkjar { display: inline; }
-  .mobile { display: none; }
   .mobileSocial { display: none; }
   .kassi { height: 75%; }
   .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; } }
 
-@media only screen and (min-width: 860px) { .mobileSocial { display: inline; } }
+@media only screen and (min-width: 768px) and (min-width: 900px) { .mobileSocial { display: inline; }
+  .storSkjar { display: inline; }
+  .mobile { display: none; } }
 
-@media only screen and (min-width: 992px) { nav { display: flex; flex-flow: row; justify-content: left; } }
+@media only screen and (min-width: 768px) and (min-width: 992px) { nav { display: flex; flex-flow: row; justify-content: left; } }
 
-@media only screen and (min-width: 1200px) { nav { display: flex; flex-flow: row; justify-content: left; } }
+@media only screen and (min-width: 768px) and (min-width: 1200px) { nav { display: flex; flex-flow: row; justify-content: left; } }
 
-@media (min-aspect-ratio: 16 / 9) { #skautavid { width: 100%; height: auto; } }
+@media only screen and (min-width: 768px) and (min-aspect-ratio: 16 / 9) { #skautavid { width: 100%; height: auto; } }
 
-@media (max-aspect-ratio: 16 / 9) { #skautavid { width: auto; height: 100%; } }
+@media only screen and (min-width: 768px) and (max-aspect-ratio: 16 / 9) { #skautavid { width: auto; height: 100%; } }
 
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?c6thux"); src: url("../fonts/icomoon.eot?c6thux#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?c6thux") format("truetype"), url("../fonts/icomoon.woff?c6thux") format("woff"), url("../fonts/icomoon.svg?c6thux#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 
@@ -194,7 +198,7 @@ form { border: 1px solid #c6c7cc; background-color: rgba(240, 240, 242, 0.6); bo
 
 textarea { width: 300px; height: 120px; }
 
-fieldset { border: 0; margin: 0; padding: 0; }
+fieldset { font-family: 'Cookie', cursive; border: 0; margin: 0; padding: 0; font-size: 24px; }
 
 input { border-radius: 5px; font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; }
 
@@ -206,10 +210,27 @@ input { border-radius: 5px; font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, s
 
 .account-action { border-top: 1px solid #c6c7cc; padding: 20px; text-align: center; }
 
-.account-action .btn { background: linear-gradient(#ca4242, brown); border: 0; color: #fff; cursor: pointer; font-weight: bold; padding: 8px 16px; }
+.account-action .btn { background: linear-gradient(#ca4242, brown); border: 0; color: #fff; cursor: pointer; font-weight: bold; padding: 8px 16px; font-family: 'Cookie', cursive; font-size: larger; }
 
 .account-action label { color: #7c7c80; font-size: 12px; float: left; margin: 10px 0 0 20px; }
 
 .buttonHolder { text-align: center; display: block; margin: 0 auto; }
+
+.body { background-color: #F24236; width: 100%; font-family: 'Cookie', cursive; }
+
+.container { position: absolute; top: 90px; left: 180px; }
+
+#days { font-size: 50px; color: #FFF; text-align: center; letter-spacing: 3px; }
+
+.drop { position: absolute; top: 0; z-index: -1; opacity: 0; }
+
+.snow { height: 8px; width: 8px; border-radius: 100%; background-color: #FFF; box-shadow: 0 0 10px #FFF; }
+
+.animate { animation: falling 8.5s infinite ease-in; }
+
+@keyframes falling { 0% { top: 0;
+    opacity: 1; }
+  100% { top: 1500px;
+    opacity: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

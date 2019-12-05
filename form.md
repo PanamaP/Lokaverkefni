@@ -1,6 +1,6 @@
 ---
 layout: form
-title: Fresh Drop Info
+title: Nettilboð
 ---
 <form>
   <fieldset class="account-info">
@@ -50,7 +50,7 @@ title: Fresh Drop Info
     <input type="checkbox" name="eignSogH"           value="emailList" > Er með eigin skauta og Hjálm
  </label>
  <label>
-        Sérstakarspurningar?<br>
+        Sérstakar spurningar?<br>
         <textarea rows="4" name="comment" required></textarea>
         <br>
         Við reynum að svara innan 24klst. 
@@ -58,7 +58,7 @@ title: Fresh Drop Info
   </fieldset>
   <div class="buttonholder">
   <fieldset class="account-action">
-    <input class="btn" type="submit" name="submit" value="Send">
+    <input class="btn" type="submit" name="submit" value="Senda">
   </fieldset>
   </div>
 </form>

@@ -1,6 +1,16 @@
 .current {
     color: red;
 }
+.santa{
+    padding-left:130px; 
+    font-size:18px; 
+    padding-right: 10px; 
+    padding-top:65px; 
+    text-align:center;
+}
+.santaBil{
+    margin: 22px;
+}
 nav a{
     grid-area: nav;
     color: white;
@@ -57,11 +67,13 @@ img {
     color: white;
     text-shadow: black 0px 0px 10px;
 }
+body{
+    font-family: 'Cookie', cursive;
+}
 footer{
     text-align: center;
     font-size: 25px;
     color: white;
-    
 }
 .mini{
     width: 100;
@@ -166,18 +178,10 @@ aside {
 }
 @keyframes fadeInVinstri{
     0%{
-        left: -25em;
+        left: -45em;
     }
     100%{
         left: 0;
-    }
-}
-@keyframes fadeInHaegri{
-    0%{
-        right: -25em;
-    }
-    100%{
-        right: 0;
     }
 }
 @media only screen and (min-width: 300px){
@@ -187,11 +191,7 @@ aside {
 } 
 @media only screen and (max-width: 600px)
  {
-    nav {
-        display: flex;
-        flex-flow: column;
-        
-    }
+    
     main{
         display: grid;
         grid-gap: 0;
@@ -203,7 +203,7 @@ aside {
     }
     nav{
         width: 100%;
-        height: 70px;
+        height: 100px;
         padding-bottom: 24px;
         padding-left: 0;
     }
@@ -215,17 +215,19 @@ aside {
         list-style: none;
         position: relative;  
     }
-    
+    .menuMerki{
+     font-size: 50px;
+     color: red;
+    }
+ 
     nav ul li a{
      display: block;
      font-family: Arial, Helvetica, sans-serif;
      color: black;
-     font-size: 34px;
-     padding: 22px 14px;
+     font-size: 14px;
      text-decoration: none;
-     background-color: #ffffff;
      opacity: 0.8;
-     border-radius: 24px;
+     border-radius: 34px;
      
     }
     nav ul li ul{
@@ -255,7 +257,7 @@ aside {
     }
     .fadeIn{
         position: relative;
-        animation: ease-in fadeInHaegri 2s;
+        animation: ease-in fadeInVinstri 2s;
         animation-direction: normal;
     }
     .kassi{
@@ -332,7 +334,7 @@ aside {
     }
     .fadeIn{
         position: relative;
-        animation: ease-in fadeInHaegri 2s;
+        animation: ease-in fadeInVinstri 2s;
         animation-direction: normal;
     }
     
@@ -358,12 +360,7 @@ aside {
         grid-template-areas: "article aside";
         grid-template-columns: 1fr 1fr;
     } 
-    .storSkjar{
-        display: inline;
-    }
-    .mobile{
-        display: none;
-    }
+    
     .mobileSocial{
         display: none;
     }
@@ -372,14 +369,19 @@ aside {
     }
     
     .fadeIn{
-    position: relative;
-    animation: ease-in fadeInVinstri 2s;
-    animation-direction: normal;
-    }
+        position: relative;
+        animation: ease-in fadeInVinstri 2s;
+        animation-direction: normal;
 }
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 900px) {
     .mobileSocial{
         display: inline;
+    }
+    .storSkjar{
+        display: inline;
+    }
+    .mobile{
+        display: none;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -409,4 +411,5 @@ aside {
         width: auto;
         height: 100%;
     }
+}
 }

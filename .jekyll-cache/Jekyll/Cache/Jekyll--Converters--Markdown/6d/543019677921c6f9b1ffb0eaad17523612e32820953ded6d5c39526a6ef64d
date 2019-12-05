@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="/assets/css/styles.css">
-        <title>Nettilboð</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link rel="icon" type="image/png" href="/assets/fonts/favicon.ico">
-</head>
-<body class="texti">
-        
-<nav class="mobile">
-
-<ul>
-    <li ><a href="#" class="menuMerki">&#9776;</a>
-      <ul>
-          
-          <li><a href="/" >
-              <span class="icon-home3"> </span>
-          </a></li>
-            
-          <li><a href="/about.html" >
-              Opnunartími
-          </a></li>
-            
-          <li><a href="/form.html" style="color: red;">
-              Nettilboð
-          </a></li>
-            
-      </ul>
-    </li>
-      
-</ul>
-</nav>
-
-<nav class="storSkjar">
-  
-    <a href="/" >
-      <span class="icon-home3"> </span>
-    </a>
-  
-    <a href="/about.html" >
-      Opnunartími
-    </a>
-  
-    <a href="/form.html" style="color: red;">
-      Nettilboð
-    </a>
-  
-</nav>
-        <div class="content">
-        <form>
+I"<form>
   <fieldset class="account-info">
     <label>
          Nafn
@@ -112,19 +59,4 @@
   </div>
 </form>
 
-
-        </div>
-</body>
-<footer >
-        <hr> 
-        <span class="svgFooter icon-ice-skate"></span>
-<div>
-    
-</div>
-Hafðu Samband
-<br>
-Þjónustuver - 519 1919
-<p></p>
- 
-      </footer>
-</html>
+:ET
