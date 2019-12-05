@@ -22,8 +22,8 @@ title: Nettilboð
     </select>
     <br>
     <br>
-    <label for='born'> Börn? </label>
-    <input id='born' type="radio" name="born" value="Yes"> Já
+    <label> Börn? </label>
+    <input type="radio" name="born" value="Yes"> Já
     <input type="radio" name="born" value="No" checked> Nei
     <br>
     <Br>
@@ -38,8 +38,8 @@ title: Nettilboð
         </select>
     <br>
     <br>
-    <label for='leiga'> Ég vil leiga - </label> 
-      <input id='leiga' type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
+    <label> Ég vil leiga - </label> 
+      <input type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
       <br>
       <input type="checkbox" name="grind" value="skautagrind">Skautagrind
       <br>
