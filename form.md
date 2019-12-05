@@ -4,15 +4,15 @@ title: Nettilboð
 ---
 <form>
   <fieldset class="account-info">
-    <label for='name'> Nafn </label>
-    <input type="text" name="name" placeholder="Fullt Nafn" required autofocus>
+    <label for='nafn'> Nafn </label>
+    <input id="nafn" type="text" name="name" placeholder="Fullt Nafn" required autofocus>
     <br>
     <br>
-    <label for='name'> Tölvupóstur </label>
+    <label for='email'> Tölvupóstur </label>
     <input type="email" name="email" placeholder="domain@address.com" required>
     <br>
     <br>
-    <label for='name'> Hversu marga miða? </label>
+    <label for='midar'> Hversu marga miða? </label>
     <select name="midar">
     <option value="1" selected>1</option>
     <option value="2">2</option>
@@ -23,12 +23,12 @@ title: Nettilboð
     <br>
     <br>
     <label for='born'> Börn? </label>
-    <input type="radio" name="born" value="Yes"> Já
-    <input type="radio" name="born" value="No" checked> Nei
+    <input id='born' type="radio" name="born" value="Yes"> Já
+    <input id='born' type="radio" name="born" value="No" checked> Nei
     <br>
     <Br>
-    <label for='name'> hversu mörg? </label> 
-        <select name="bornfjoldi">
+    <label for='fjoldi'> hversu mörg? </label> 
+        <select id='fjoldi' name="bornfjoldi">
         <option value="0" selected>0</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -38,12 +38,12 @@ title: Nettilboð
         </select>
     <br>
     <br>
-    <label for='name'> Ég vil leiga - </label> 
-      <input type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
+    <label for='leiga'> Ég vil leiga - </label> 
+      <input id='leiga' type="checkbox" name="SogH" value="skautaoghjalm" checked>Skauta og Hjálm
       <br>
-      <input type="checkbox" name="grind" value="skautagrind">Skautagrind
+      <input id='leiga' type="checkbox" name="grind" value="skautagrind">Skautagrind
       <br>
-      <input type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
+      <input id='leiga'type="checkbox" name="eignSogH"           value="eigin">Er með eigin skauta og Hjálm
     <br>
     <br>
     <label for='name'> Sérstakar spurningar? </label> 
