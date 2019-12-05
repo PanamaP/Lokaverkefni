@@ -1,9 +1,11 @@
----
-layout: defaultTable
-title: Opnar 1. Desember
----
-<h2>Dagskrá</h2>
+I"�<h2>Dagskrá</h2>
 <table class="table">
+<thead>
+    <tr class="thead2">
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+</thead>
 <thead>
     <tr>
       <th scope="col">Dagsetning</th>
@@ -37,3 +39,5 @@ title: Opnar 1. Desember
     <td>12:00 - 22:00</td>
   </tr>
   
+</tbody></table>
+:ET

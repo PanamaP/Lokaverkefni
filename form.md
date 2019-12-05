@@ -62,4 +62,3 @@ title: Nettilboð
   </fieldset>
   </div>
 </form>
-     
