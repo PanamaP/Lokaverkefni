@@ -29,7 +29,7 @@ h3{
     color: grey;
 }
 p{
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.5em;
     color: white;
     text-shadow: black 0px 0px 10px;
@@ -184,6 +184,14 @@ aside {
         left: 0;
     }
 }
+@keyframes fadeInHaegri{
+    0%{
+        right: -45em;
+    }
+    100%{
+        right: 0;
+    }
+}
 @media only screen and (min-width: 300px){
     .kassi{
         height: 8em;
@@ -257,7 +265,7 @@ aside {
     }
     .fadeIn{
         position: relative;
-        animation: ease-in fadeInVinstri 2s;
+        animation: ease-in fadeInHaegri 2s;
         animation-direction: normal;
     }
     .kassi{
@@ -334,7 +342,7 @@ aside {
     }
     .fadeIn{
         position: relative;
-        animation: ease-in fadeInVinstri 2s;
+        animation: ease-in fadeInHaegri 2s;
         animation-direction: normal;
     }
     
@@ -346,6 +354,11 @@ aside {
     body{
         background: url('/pictures/poster3.jpg');
         background-size: cover;
+    }
+    .fadeIn{
+        position: relative;
+        animation: ease-in fadeInHaegri 2s;
+        animation-direction: normal;
     }
 }
 @media only screen and (min-width: 768px) {

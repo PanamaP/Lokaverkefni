@@ -13,7 +13,7 @@ h1 { color: white; text-shadow: black 0px 0px 10px; }
 
 h3 { color: grey; }
 
-p { font-size: 24px; line-height: 1.5em; color: white; text-shadow: black 0px 0px 10px; }
+p { font-size: 30px; line-height: 1.5em; color: white; text-shadow: black 0px 0px 10px; }
 
 h2 { color: white; text-shadow: black 0px 0px 10px; }
 
@@ -80,6 +80,9 @@ aside { grid-template-columns: 1fr 1fr; grid-template-areas: "midja midja"  "hae
 @keyframes fadeInVinstri { 0% { left: -45em; }
   100% { left: 0; } }
 
+@keyframes fadeInHaegri { 0% { right: -45em; }
+  100% { right: 0; } }
+
 @media only screen and (min-width: 300px) { .kassi { height: 8em; } }
 
 @media only screen and (max-width: 600px) { main { display: grid; grid-gap: 0; grid-template-areas: "article" "aside"; grid-template-columns: 1fr 1fr; }
@@ -95,7 +98,7 @@ aside { grid-template-columns: 1fr 1fr; grid-template-areas: "midja midja"  "hae
   nav ul li ul li a { padding: 8px 14px; }
   nav ul li ul li a:hover { background-color: #979797; }
   .mobileSocial { display: none; }
-  .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; }
+  .fadeIn { position: relative; animation: ease-in fadeInHaegri 2s; animation-direction: normal; }
   .kassi { width: 8em; border-radius: .4em; background-color: #ffffff; text-align: center; } }
 
 @media only screen and (min-width: 600px) { nav { width: 100%; height: 100px; padding-bottom: 24px; padding-left: 0; }
@@ -111,10 +114,11 @@ aside { grid-template-columns: 1fr 1fr; grid-template-areas: "midja midja"  "hae
   main { display: grid; grid-gap: 0; grid-template-areas: "article" "aside"; grid-template-columns: 1fr 1fr; }
   .storSkjar { display: none; }
   .mobileSocial { display: none; }
-  .fadeIn { position: relative; animation: ease-in fadeInVinstri 2s; animation-direction: normal; } }
+  .fadeIn { position: relative; animation: ease-in fadeInHaegri 2s; animation-direction: normal; } }
 
 @media (max-width: 767px) { #skautavid { display: none; }
-  body { background: url("/pictures/poster3.jpg"); background-size: cover; } }
+  body { background: url("/pictures/poster3.jpg"); background-size: cover; }
+  .fadeIn { position: relative; animation: ease-in fadeInHaegri 2s; animation-direction: normal; } }
 
 @media only screen and (min-width: 768px) { nav { display: flex; flex-flow: row; justify-content: left; }
   main { display: grid; grid-gap: 0; grid-template-areas: "article aside"; grid-template-columns: 1fr 1fr; }
