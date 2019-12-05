@@ -1,15 +1,15 @@
-I"�<form>
+I"�<form>
   <fieldset class="account-info">
     <label for="nafn"> Nafn </label>
     <input id="nafn" type="text" name="name" placeholder="Fullt Nafn" required="" autofocus="" />
     <br />
     <br />
     <label for="email"> Tölvupóstur </label>
-    <input type="email" name="email" placeholder="domain@address.com" required="" />
+    <input id="email" type="email" name="email" placeholder="domain@address.com" required="" />
     <br />
     <br />
     <label for="midar"> Hversu marga miða? </label>
-    <select name="midar">
+    <select id="midar" name="midar">
     <option value="1" selected="">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -39,11 +39,11 @@
       <br />
       <input id="leiga" type="checkbox" name="grind" value="skautagrind" />Skautagrind
       <br />
-      &lt;input id='leiga'type="checkbox" name="eignSogH"           value="eigin"&gt;Er með eigin skauta og Hjálm
+      <input id="leiga" type="checkbox" name="eignSogH" value="eigin" />Er með eigin skauta og Hjálm
     <br />
     <br />
-    <label for="name"> Sérstakar spurningar? </label> 
-        <textarea rows="4" name="comment" required=""></textarea>
+    <label for="spurning"> Sérstakar spurningar? </label> 
+        <textarea id="spurning" rows="4" name="comment" required=""></textarea>
     <br />
     Við reynum að svara innan 24klst. 
   </fieldset>
